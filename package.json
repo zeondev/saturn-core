@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "express": "^4.18.1"
-  }
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  },
+  "name": "saturn-core",
+  "description": "Saturn Core is a quick and easy starting point for a web app that allows you to create packages that add up together to make a simple and lightweight web app without using any web frameworks.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "cd src/ && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeondev/saturn-core.git"
+  },
+  "author": "Lap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeondev/saturn-core/issues"
+  },
+  "homepage": "https://github.com/zeondev/saturn-core#readme"
 }
